@@ -9,15 +9,23 @@ containsValue() ... etc. In addition, the hash map contains a method printTable(
 happens in a bucket after a certain number of key-value mappings are inserted in the hash map. The output of the printTable
 method is as following:
 
-Index 0: (0 conflicts), [].
-Index 1: (0 conflicts), [].
-Index 2: (0 conflicts), [].
-Index 3: (0 conflicts), [].
-Index 4: (0 conflicts), [].
-Index 5: (0 conflicts), [ExampleKeyX, ].
-Index 6: (0 conflicts), [ExampleKeyY, ].
-Index 7: (0 conflicts), [].
-Total # of conflicts: 0.
+Index 0: (0 conflicts), []
+
+Index 1: (0 conflicts), []
+
+Index 2: (0 conflicts), []
+
+Index 3: (0 conflicts), []
+
+Index 4: (0 conflicts), []
+
+Index 5: (0 conflicts), [ExampleKeyX, ]
+
+Index 6: (0 conflicts), [ExampleKeyY, ]
+
+Index 7: (0 conflicts), []
+
+Total # of conflicts: 0
 
 Note: Notice that the hash map always has 8 buckets (again, you can change it this as you want).
 
