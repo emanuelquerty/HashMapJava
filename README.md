@@ -29,6 +29,13 @@ Total # of conflicts: 0
 
 Note: Notice that the hash map always has 8 buckets (again, you can change it this as you want).
 
+# Usage:
+There are more than two files in the src directory. However, you only need two files to use this hashmap.
+Those two files contain all the implementation and they are: MyHashMap.java and HashNode.java.
+The remaining files are just testCase files in JUnit and a LinkedList file that contains the same
+linkedList that the HashMap uses (You don't need this file as the LinkedList is already nested within the
+HashMap class). So you only need MyHashMap.java and HashNode.java to use the HashMap.
+
 # Hash function
 
 For the hashing the key, the following hash method was used:
