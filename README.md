@@ -49,17 +49,17 @@ Since this was for hash map analysis purposes, I didn't implement all methods th
 hash map has implemented. I implemented 9 methods only, which are some of the most used methods. 
 The methods implemented are:
 
- clear
- containsKey
- containsValue
- get
- isEmpty
- keySet
- put
- remove - note the Java HashMap class has two versions. You only need to implement
+- clear
+- containsKey
+- containsValue
+- get
+- isEmpty
+- keySet
+- put
+- remove - note the Java HashMap class has two versions. You only need to implement
 the one with the signature: remove(key).
- size
- printTable
+- size
+- printTable
 
 Notice that the only method not taken from the Java documentation is printTable. printTable() should
 output how many conflicts occur at each bucket and list the keys in that bucket.
