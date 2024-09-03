@@ -1,4 +1,4 @@
-# HashMap implementation in java (Generics included)
+# HashMap implementation in java 
 A hash map implementation in java with generics and chaining as collision resolution.
 This implementation always creates 8 buckets, so you can change in the HashMap constructor to 
 any number of buckets. I used 8 buckets just for the purpose of collision resolution and analysis.
